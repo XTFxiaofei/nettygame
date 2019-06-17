@@ -7,16 +7,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.HttpContent;
 import io.netty.handler.codec.http.HttpHeaders;
 import io.netty.handler.codec.http.HttpResponse;
-/** 
-* @project:		nettygame
-* @Title:		ClientInboundHandler.java
-* @Package:		cpgame.nettygame
-  @author: 		chenpeng
-* @email: 		46731706@qq.com
-* @date:		2015年8月27日 上午9:48:49 
-* @description:
-* @version:
-*/
+
 public class ClientInboundHandler extends ChannelInboundHandlerAdapter {
 
 	@Override

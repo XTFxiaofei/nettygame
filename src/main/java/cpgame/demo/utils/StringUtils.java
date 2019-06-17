@@ -3,16 +3,6 @@ package cpgame.demo.utils;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @project: demo
- * @Title: StringUtils.java
- * @Package: cpgame.demo.utils
- * @author: chenpeng
- * @email: 46731706@qq.com
- * @date: 2015年8月20日 下午2:34:27
- * @description:
- * @version:
- */
 
 public class StringUtils {
 	public static List<String> splitToStringList(String str, String sepKey) {

@@ -22,16 +22,7 @@ import io.netty.handler.codec.http.websocketx.PongWebSocketFrame;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.util.CharsetUtil;
 
-/**
- * @project: demo
- * @Title: HandlerDispatcher.java
- * @Package: cpgame.demo.dispatcher
- * @author: chenpeng
- * @email: 46731706@qq.com
- * @date: 2015年8月20日 下午2:15:04
- * @description:
- * @version:
- */
+
 public class HandlerDispatcher implements Runnable {
 	private static final Logger logger = LoggerFactory.getLogger(HandlerDispatcher.class);
 	private final Map<Integer, MessageQueue> sessionMsgQ;

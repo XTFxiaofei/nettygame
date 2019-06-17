@@ -15,8 +15,6 @@ import org.slf4j.LoggerFactory;
  *               MemoryAwareThreadPoolExecutor确保jvm不会因为过多的线程而导致内存溢出错误
  *               OrderedMemoryAwareThreadPoolExecutor是前一个线程池的子类
  *               ，除了保证没有内存溢出之外，还可以保证 channel event的处理次序。
- * @author chenpeng
- * @date 2012-8-9 下午02:15:07
  * 
  * 
  */

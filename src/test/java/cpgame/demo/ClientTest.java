@@ -24,16 +24,7 @@ import io.netty.handler.codec.http.HttpRequestEncoder;
 import io.netty.handler.codec.http.HttpResponseDecoder;
 import io.netty.handler.codec.http.HttpVersion;
 
-/**
- * @project: nettygame
- * @Title: ClientTest.java
- * @Package: cpgame.nettygame
- * @author: chenpeng
- * @email: 46731706@qq.com
- * @date: 2015年8月20日 下午1:45:24
- * @description:
- * @version:
- */
+
 public class ClientTest {
 	public void connect(String host, int port, final ERequestType requestType) throws Exception {
 		EventLoopGroup workerGroup = new NioEventLoopGroup();

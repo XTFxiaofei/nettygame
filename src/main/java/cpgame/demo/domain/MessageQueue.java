@@ -3,16 +3,7 @@ package cpgame.demo.domain;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-/**
- * @project: demo
- * @Title: MessageQueue.java
- * @Package: cpgame.demo.domain
- * @author: chenpeng
- * @email: 46731706@qq.com
- * @date: 2015年8月20日 下午2:22:06
- * @description:
- * @version:
- */
+
 
 public class MessageQueue {
 	private Queue<GameRequest> requestQueue;
